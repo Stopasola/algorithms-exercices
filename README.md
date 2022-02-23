@@ -1,4 +1,6 @@
 
+# Exercicios básicos de Algoritmos 
+
 1.1. Um circo deseja saber qual o preço ideal dos ingressos, de acordo com a cidade que
 visitam. Para tanto, eles descobriram que em média 120 pessoas comparecem em
 cada sessão, quando o preço do ingresso é R$ 5,00. A partir disso, a cada redução de
@@ -32,6 +34,7 @@ notas) e não, por exemplo, sete notas de 10.00 (sete notas no total) ou uma not
 valor em unidades monetárias e determinar o número de cédulas expedidas pelo
 terminal bancário caso essa quantia fosse retirada.
 Modifique o programa original considerando as seguintes restrições:
+
     a) Existe um número fixo de notas de cada tipo. Este dado é fornecido como dado de entrada;
     b) O seu programa deve obter a melhor resposta (saque com o menor número de notas) considerando 
     o número de notas disponíveis. Por exemplo, se uma pessoa
@@ -57,9 +60,11 @@ que leia um valor n inteiro e positivo e apresente o valor de H(n).
 
 1.8. Faça um programa que leia um valor N inteiro e positivo, calcule o mostre o valor
 E, conforme a fórmula a seguir
+
                     E = 1 + 1/1! + 1/2! + 1/3! + ... + 1/N!
 
 1.9. Faça um programa que calcule e escreva o valor de S
+
                     S = 1/1 + 3/2 + 5/3 + 7/4 ... 99/50
 
 1.10. Faça um programa que some os números ímpares contidos em um intervalo definido
@@ -84,6 +89,7 @@ rendendo 5% ao mês. Construa um programa que deverá calcular e mostrar a quant
 ultrapasse o valor pertencente a Carlos. Teste com outros valores para as taxas.
 
 1.13. Faça um programa que leia vários números, calcule e mostre:
+
     a) A soma dos números digitados
     b) A quantidade de números digitados
     c) A média dos números digitados
@@ -180,7 +186,9 @@ operações possíveis: 1 – adição, 2 – subtração, 3 – multiplicação
 sair do programa. Para cada uma das operações escreva um função.
 
 3.10. Faça uma sub-rotina que receba por parâmetro um valor inteiro e positivo N e
-retorne o valor de S. S = 1 + 1/1! + 1/2! + 1/3! + 1/N!
+retorne o valor de S. 
+
+                        S = 1 + 1/1! + 1/2! + 1/3! + 1/N!
 
 3.11. Escreva uma função de potenciação, em que os dados de entrada são: base e
 expoente (inteiros).
@@ -239,6 +247,7 @@ necessário armazenar os seguintes dados do funcionário:
     -> Código, nome, cargo, salário, endereço, telefone, status
 
 O sistema deverá ter as opções para:
+
     a- Inclusão de funcionários
     b- Consulta de funcionários por nome ou código
     c- Alteração nos dados do funcionário
